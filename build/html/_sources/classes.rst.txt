@@ -1,0 +1,16 @@
+Classes in GAMUT
+================
+
+Following table lists all available classes and their functionalities in GAMUT.
+
+
+Class Functionality
+Spectrum store the channel-wise counting data
+Region represent a ROI on the spectrum which may contain one or more peaks
+Peak represent a peak and store its position, height, peak width, peak area, etc.
+Calibration represent the relationship between channel indexes to variables such as energy
+Operator the basic class to wrap algorithms
+Pipe combine multiple operators linearly into one operator
+PipeNet combine multiple operators and pipes non-linearly into an analysis workflow
+Node store spectra inside a pipenet
+Flow wrap operator with its input/output node information

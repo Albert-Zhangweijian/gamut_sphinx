@@ -1,0 +1,8 @@
+Formation of Gamma Spectrum
+===========================
+
+
+Gamma rays are high-energy photons. They are produced during the decay of radioactive isotopes.
+And hence, it carries certain characteristic information about the decay process.
+The gamma spectrum is a plot of the number of gamma rays detected as a function of the energy of the gamma rays.
+It is used to identify the radioactive isotopes present in a sample. The gamma spectrum is obtained by using a gamma-ray spectrometer. The gamma-ray spectrometer consists of a scintillation detector, a photomultiplier tube, and a multichannel analyzer. The scintillation detector is used to detect gamma rays. The photomultiplier tube is used to convert the light produced by the scintillation detector into an electrical signal. The multichannel analyzer is used to convert the electrical signal into a gamma spectrum. The gamma spectrum is used to identify the radioactive isotopes present in a sample by comparing the peaks in the gamma spectrum with the known gamma energies of the radioactive isotopes.
