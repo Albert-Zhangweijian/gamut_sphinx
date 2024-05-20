@@ -1,0 +1,21 @@
+test package
+============
+
+Submodules
+----------
+
+test.sum module
+---------------
+
+.. automodule:: test.sum
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: test
+   :members:
+   :undoc-members:
+   :show-inheritance:

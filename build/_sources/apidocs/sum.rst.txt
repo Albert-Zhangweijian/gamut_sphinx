@@ -1,0 +1,7 @@
+sum module
+==========
+
+.. automodule:: sum
+   :members:
+   :undoc-members:
+   :show-inheritance:

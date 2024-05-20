@@ -1,5 +1,5 @@
 Initialize an Operator
-=====================
+======================
 
 :py:class:`Operator` is another key class in GAMUT. All algorithms are defined as subclasses of Operator in
 GAMUT, and they must be initialized with configuration parameters before applying to gamma spectra.

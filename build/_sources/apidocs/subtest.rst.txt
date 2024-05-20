@@ -1,0 +1,21 @@
+subtest package
+===============
+
+Submodules
+----------
+
+subtest.minus module
+--------------------
+
+.. automodule:: subtest.minus
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: subtest
+   :members:
+   :undoc-members:
+   :show-inheritance:
