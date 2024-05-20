@@ -33,6 +33,7 @@ secondary development on GAMUT are welcomed!
    guide/index
    theory/index
    apidocs/modules
+   apidoc/modules
 
 
 Indices and tables
