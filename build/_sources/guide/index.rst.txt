@@ -1,7 +1,7 @@
-User Guide
+User Manual
 ================
 
-Welcome to the GAMUT's user guide. This guide will guide your through the essential aspects of using GAMUT to perform gamma spectrum analysis.
+Welcome to the GAMUT's User Manual. This manual will guide your through the essential aspects of using GAMUT to perform gamma spectrum analysis.
 
 .. toctree::
    :maxdepth: 1

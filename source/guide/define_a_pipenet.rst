@@ -1,3 +1,5 @@
+.. _guide_define_a_pipenet:
+
 Define a PipeNet
 ================
 

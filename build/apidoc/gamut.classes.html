@@ -21,8 +21,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="gamut.operators package" href="gamut.operators.html" />
-    <link rel="prev" title="gamut package" href="gamut.html" /> 
+    <link rel="next" title="gamut.operator package" href="gamut.operator.html" />
+    <link rel="prev" title="API Reference" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -44,33 +44,38 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../dependencies.html">Denpendencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies.html">Dependencies</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../classes_and_algorithms.html">Classes and algorithms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guide/index.html">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../classes_and_algorithms.html">Classes and Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/index.html">User Manual</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../theory/index.html">Theory Manual</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../apidocs/modules.html">test</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="modules.html">gamut</a><ul class="current">
-<li class="toctree-l2 current"><a class="reference internal" href="gamut.html">gamut package</a><ul class="current">
-<li class="toctree-l3 current"><a class="reference internal" href="gamut.html#subpackages">Subpackages</a><ul class="current">
-<li class="toctree-l4 current"><a class="current reference internal" href="#">gamut.classes package</a></li>
-<li class="toctree-l4"><a class="reference internal" href="gamut.operators.html">gamut.operators package</a></li>
-<li class="toctree-l4"><a class="reference internal" href="gamut.spectrum.html">gamut.spectrum package</a></li>
-<li class="toctree-l4"><a class="reference internal" href="gamut.test.html">gamut.test package</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">API Reference</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">gamut.classes package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gamut.classes.Calibration">gamut.classes.Calibration module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#gamut.classes.Calibration.Calibration"><code class="docutils literal notranslate"><span class="pre">Calibration</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="gamut.html#submodules">Submodules</a></li>
-<li class="toctree-l3"><a class="reference internal" href="gamut.html#gamut-default-module">gamut.default module</a></li>
-<li class="toctree-l3"><a class="reference internal" href="gamut.html#module-gamut.globals">gamut.globals module</a></li>
-<li class="toctree-l3"><a class="reference internal" href="gamut.html#gamut-utils-module">gamut.utils module</a></li>
-<li class="toctree-l3"><a class="reference internal" href="gamut.html#module-contents">Module contents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gamut.classes.Peak">gamut.classes.Peak module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#gamut.classes.Peak.Peak"><code class="docutils literal notranslate"><span class="pre">Peak</span></code></a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gamut.classes.Region">gamut.classes.Region module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#gamut.classes.Region.Region"><code class="docutils literal notranslate"><span class="pre">Region</span></code></a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gamut.classes">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gamut.operator.html">gamut.operator package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gamut.spectrum.html">gamut.spectrum package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gamut.test.html">gamut.test package</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gamut.html">gamut package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../license.html">License Agreement</a></li>
 </ul>
 
         </div>
@@ -87,8 +92,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="modules.html">gamut</a></li>
-          <li class="breadcrumb-item"><a href="gamut.html">gamut package</a></li>
+          <li class="breadcrumb-item"><a href="index.html">API Reference</a></li>
       <li class="breadcrumb-item active">gamut.classes package</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/apidoc/gamut.classes.rst.txt" rel="nofollow"> View page source</a>
@@ -106,53 +110,78 @@
 </section>
 <section id="module-gamut.classes.Calibration">
 <span id="gamut-classes-calibration-module"></span><h2>gamut.classes.Calibration module<a class="headerlink" href="#module-gamut.classes.Calibration" title="Link to this heading"></a></h2>
-<p>Author: albertzhang <a class="reference external" href="mailto:albert&#46;zhangweij&#37;&#52;&#48;outlook&#46;com">albert<span>&#46;</span>zhangweij<span>&#64;</span>outlook<span>&#46;</span>com</a>
-Date: 2024-05-08 17:02:34
-Description:</p>
-<p>Copyright (c) 2024 by THU-RSAG, All Rights Reserved.</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">gamut.classes.Calibration.</span></span><span class="sig-name descname"><span class="pre">Calibration</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">method</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Literal</span><span class="p"><span class="pre">[</span></span><span class="s"><span class="pre">'linear'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'quadratic'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'FWHM'</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">params</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/gamut/classes/Calibration.html#Calibration"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Calibration.Calibration" title="Link to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="py method">
-<dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration.add_point">
-<span class="sig-name descname"><span class="pre">add_point</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">point</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="../_modules/gamut/classes/Calibration.html#Calibration.add_point"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Calibration.Calibration.add_point" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration.from_points">
-<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">from_points</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">method</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Literal</span><span class="p"><span class="pre">[</span></span><span class="s"><span class="pre">'linear'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'quadratic'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'FWHM'</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">points</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#gamut.classes.Calibration.Calibration" title="gamut.classes.Calibration.Calibration"><span class="pre">Calibration</span></a></span></span><a class="reference internal" href="../_modules/gamut/classes/Calibration.html#Calibration.from_points"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Calibration.Calibration.from_points" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py property">
-<dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration.function">
-<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">function</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">CalibrationFunction</span></em><a class="headerlink" href="#gamut.classes.Calibration.Calibration.function" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
+<p>Relationship between spectrum channels and other quantities.
+It uses a funtion and a set of parameters to describe the relationship.
+When the parameters are unknown, they can be fitted using a set of points.</p>
+<p>Initialize the calibration object with the given method and parameters.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>method</strong> – The calibration method to use</p></li>
+<li><p><strong>params</strong> – The parameters of the calibration function</p></li>
+</ul>
+</dd>
+</dl>
 <dl class="py property">
 <dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration.method">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">method</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Literal</span><span class="p"><span class="pre">[</span></span><span class="s"><span class="pre">'linear'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'quadratic'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'FWHM'</span></span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#gamut.classes.Calibration.Calibration.method" title="Link to this definition"></a></dt>
-<dd></dd></dl>
+<dd><p>Alias of the curve fitting function.</p>
+</dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration.params">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">params</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#gamut.classes.Calibration.Calibration.params" title="Link to this definition"></a></dt>
-<dd></dd></dl>
+<dd><p>Parameters used in the curve fitting function.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration.function">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">function</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">CalibrationFunction</span></em><a class="headerlink" href="#gamut.classes.Calibration.Calibration.function" title="Link to this definition"></a></dt>
+<dd><p>Structured function used in the curve fitting.</p>
+</dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration.points">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">points</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#gamut.classes.Calibration.Calibration.points" title="Link to this definition"></a></dt>
-<dd></dd></dl>
+<dd><p>List of points(channel, quantity) for curve fitting.</p>
+</dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration.points_indexes">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">points_indexes</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#gamut.classes.Calibration.Calibration.points_indexes" title="Link to this definition"></a></dt>
-<dd></dd></dl>
+<dd><p>Indexes of the points used for calibration.</p>
+</dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration.points_values">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">points_values</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#gamut.classes.Calibration.Calibration.points_values" title="Link to this definition"></a></dt>
-<dd></dd></dl>
+<dd><p>Values of the points used for calibration.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration.add_point">
+<span class="sig-name descname"><span class="pre">add_point</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">point</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="../_modules/gamut/classes/Calibration.html#Calibration.add_point"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Calibration.Calibration.add_point" title="Link to this definition"></a></dt>
+<dd><p>Add a point to the points list.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gamut.classes.Calibration.Calibration.from_points">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">from_points</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">method</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Literal</span><span class="p"><span class="pre">[</span></span><span class="s"><span class="pre">'linear'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'quadratic'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'FWHM'</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">points</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#gamut.classes.Calibration.Calibration" title="gamut.classes.Calibration.Calibration"><span class="pre">Calibration</span></a></span></span><a class="reference internal" href="../_modules/gamut/classes/Calibration.html#Calibration.from_points"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Calibration.Calibration.from_points" title="Link to this definition"></a></dt>
+<dd><p>Initialize the calibration object with the given method and points.
+The function parameters are fitted using these points.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>method</strong> – The calibration method to use</p></li>
+<li><p><strong>points</strong> – The points used for curve fitting</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
 
 </dd></dl>
 
@@ -167,52 +196,180 @@ Description:</p>
 The only required parameter is the location/index of the peak.
 Parameters like center or height are optional, depending if the peak has been fitted. 
 Other trivial parameters are stored in the attrs dictionary.</p>
-<p>Attributes:
-- location: int, the index of the peak
-- center: Optinal[float], the center of the peak
-- height: Optinal[float], the height of the peak
-- stderr: Optinal[float], the standard error of the peak
-- attrs: dict, other trivial parameters that are not commonly used</p>
-<p>Methods:
-- copy: return a deep copy of the peak
-- shift_by_index: shift the peak position by a given index</p>
+<p>Initialize the peak object with the given location and optional parameters.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>location</strong> – The index of the peak in the spectrum</p></li>
+<li><p><strong>center</strong> – The center of the peak</p></li>
+<li><p><strong>height</strong> – The height of the peak</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py property">
+<dt class="sig sig-object py" id="gamut.classes.Peak.Peak.location">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">location</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#gamut.classes.Peak.Peak.location" title="Link to this definition"></a></dt>
+<dd><p>The center index of the peak.</p>
+</dd></dl>
+
 <dl class="py property">
 <dt class="sig sig-object py" id="gamut.classes.Peak.Peak.center">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">center</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#gamut.classes.Peak.Peak.center" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="gamut.classes.Peak.Peak.copy">
-<span class="sig-name descname"><span class="pre">copy</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#gamut.classes.Peak.Peak" title="gamut.classes.Peak.Peak"><span class="pre">Peak</span></a></span></span><a class="reference internal" href="../_modules/gamut/classes/Peak.html#Peak.copy"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Peak.Peak.copy" title="Link to this definition"></a></dt>
-<dd><p>Return a deep copy of the peak</p>
+<dd><p>The precise center of the peak.</p>
 </dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="gamut.classes.Peak.Peak.height">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">height</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#gamut.classes.Peak.Peak.height" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py property">
-<dt class="sig sig-object py" id="gamut.classes.Peak.Peak.location">
-<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">location</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#gamut.classes.Peak.Peak.location" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="gamut.classes.Peak.Peak.shift_by_index">
-<span class="sig-name descname"><span class="pre">shift_by_index</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">shift</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="../_modules/gamut/classes/Peak.html#Peak.shift_by_index"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Peak.Peak.shift_by_index" title="Link to this definition"></a></dt>
-<dd><p>Shift the peak position by a given index</p>
+<dd><p>The height of the peak.</p>
 </dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="gamut.classes.Peak.Peak.stderr">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">stderr</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#gamut.classes.Peak.Peak.stderr" title="Link to this definition"></a></dt>
-<dd></dd></dl>
+<dd><p>The standard error of the gaussian shape of the peak.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gamut.classes.Peak.Peak.copy">
+<span class="sig-name descname"><span class="pre">copy</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#gamut.classes.Peak.Peak" title="gamut.classes.Peak.Peak"><span class="pre">Peak</span></a></span></span><a class="reference internal" href="../_modules/gamut/classes/Peak.html#Peak.copy"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Peak.Peak.copy" title="Link to this definition"></a></dt>
+<dd><p>Return a deep copy of the peak.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gamut.classes.Peak.Peak.shift_by_index">
+<span class="sig-name descname"><span class="pre">shift_by_index</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">shift</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="../_modules/gamut/classes/Peak.html#Peak.shift_by_index"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Peak.Peak.shift_by_index" title="Link to this definition"></a></dt>
+<dd><p>Shift the peak position by a given index</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>shift</strong> – Shift value on the index, positive indicates the right direction.</p>
+</dd>
+</dl>
+</dd></dl>
 
 </dd></dl>
 
 </section>
-<section id="gamut-classes-region-module">
-<h2>gamut.classes.Region module<a class="headerlink" href="#gamut-classes-region-module" title="Link to this heading"></a></h2>
+<section id="module-gamut.classes.Region">
+<span id="gamut-classes-region-module"></span><h2>gamut.classes.Region module<a class="headerlink" href="#module-gamut.classes.Region" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">gamut.classes.Region.</span></span><span class="sig-name descname"><span class="pre">Region</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">left</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">right</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">peaks</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#gamut.classes.Peak.Peak" title="gamut.classes.Peak.Peak"><span class="pre">Peak</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">slope</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">offset</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/gamut/classes/Region.html#Region"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Region.Region" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class representing a region of interest in a spectrum.
+It requires the left and right indexes of the region, and can contain multiple peaks.
+Parameters like slope or offset are optional, depending if the baseline has been fitted.
+Other trivial parameters are optional, and are stored in the attrs dictionary.</p>
+<p>Initialize the region object with the given left and right indexes and optional parameters.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>left</strong> – The left index of the region</p></li>
+<li><p><strong>right</strong> – The right index of the region</p></li>
+<li><p><strong>peaks</strong> – The peaks in the region</p></li>
+<li><p><strong>slope</strong> – The slope of the baseline</p></li>
+<li><p><strong>offset</strong> – The offset of the baseline</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py property">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.left">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">left</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#gamut.classes.Region.Region.left" title="Link to this definition"></a></dt>
+<dd><p>The left index of the region.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.right">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">right</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#gamut.classes.Region.Region.right" title="Link to this definition"></a></dt>
+<dd><p>The right index of the region.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.peaks">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">peaks</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#gamut.classes.Peak.Peak" title="gamut.classes.Peak.Peak"><span class="pre">Peak</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#gamut.classes.Region.Region.peaks" title="Link to this definition"></a></dt>
+<dd><p>The list of peaks in the region.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.npeaks">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">npeaks</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#gamut.classes.Region.Region.npeaks" title="Link to this definition"></a></dt>
+<dd><p>Number of peaks in the region.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.length">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">length</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#gamut.classes.Region.Region.length" title="Link to this definition"></a></dt>
+<dd><p>Length of the region.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.indexes">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">indexes</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ndarray</span></em><a class="headerlink" href="#gamut.classes.Region.Region.indexes" title="Link to this definition"></a></dt>
+<dd><p>Indexes of the region.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.slope">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">slope</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#gamut.classes.Region.Region.slope" title="Link to this definition"></a></dt>
+<dd><p>The slope of the baseline. Available only if the baseline has been fitted.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.offset">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">offset</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#gamut.classes.Region.Region.offset" title="Link to this definition"></a></dt>
+<dd><p>The offset of the baseline. Available only if the baseline has been fitted.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.copy">
+<span class="sig-name descname"><span class="pre">copy</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#gamut.classes.Region.Region" title="gamut.classes.Region.Region"><span class="pre">Region</span></a></span></span><a class="reference internal" href="../_modules/gamut/classes/Region.html#Region.copy"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Region.Region.copy" title="Link to this definition"></a></dt>
+<dd><p>Return a deep copy of the region</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.shift_by_index">
+<span class="sig-name descname"><span class="pre">shift_by_index</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">shift</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="../_modules/gamut/classes/Region.html#Region.shift_by_index"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Region.Region.shift_by_index" title="Link to this definition"></a></dt>
+<dd><p>Shift the region position by a given index, this will also shift the peaks.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>shift</strong> – int, the shift value</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.fit_peak">
+<span class="sig-name descname"><span class="pre">fit_peak</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">peak</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#gamut.classes.Peak.Peak" title="gamut.classes.Peak.Peak"><span class="pre">Peak</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">indexes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="reference internal" href="../_modules/gamut/classes/Region.html#Region.fit_peak"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Region.Region.fit_peak" title="Link to this definition"></a></dt>
+<dd><p>Return the fitted spectrum segment using the peak parameters.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>peak</strong> – The peak to fit</p></li>
+<li><p><strong>indexes</strong> – The indexes of the region</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The fitted spectrum segment</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gamut.classes.Region.Region.fit_baseline">
+<span class="sig-name descname"><span class="pre">fit_baseline</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">indexes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="reference internal" href="../_modules/gamut/classes/Region.html#Region.fit_baseline"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gamut.classes.Region.Region.fit_baseline" title="Link to this definition"></a></dt>
+<dd><p>Return the fitted baseline using the baseline parameters.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>indexes</strong> – The indexes of the region</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The fitted baseline</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
 </section>
 <section id="module-gamut.classes">
 <span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-gamut.classes" title="Link to this heading"></a></h2>
@@ -223,14 +380,14 @@ Other trivial parameters are stored in the attrs dictionary.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="gamut.html" class="btn btn-neutral float-left" title="gamut package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="gamut.operators.html" class="btn btn-neutral float-right" title="gamut.operators package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="API Reference" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="gamut.operator.html" class="btn btn-neutral float-right" title="gamut.operator package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2024, Tsinghua University, Institute of Nuclear and New Energy Technology.</p>
+    <p>&#169; Copyright 2024, Tsinghua University, Institute of Nuclear and New Energy Technology, THU-RSAG.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a

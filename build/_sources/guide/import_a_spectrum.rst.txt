@@ -1,3 +1,5 @@
+.. _guide_import_a_spectrum:
+
 Import a Spectrum
 =================
 

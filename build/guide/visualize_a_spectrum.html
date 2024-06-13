@@ -44,13 +44,12 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../dependencies.html">Denpendencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies.html">Dependencies</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../classes_and_algorithms.html">Classes and algorithms</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">User Guide</a><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../classes_and_algorithms.html">Classes and Algorithms</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">User Manual</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="import_a_spectrum.html">Import a Spectrum</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Visualize a Spectrum</a></li>
 <li class="toctree-l2"><a class="reference internal" href="export_a_spectrum.html">Export a Spectrum</a></li>
@@ -61,8 +60,8 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../theory/index.html">Theory Manual</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../apidocs/modules.html">test</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../apidoc/modules.html">gamut</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../apidoc/index.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../license.html">License Agreement</a></li>
 </ul>
 
         </div>
@@ -79,7 +78,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="index.html">User Guide</a></li>
+          <li class="breadcrumb-item"><a href="index.html">User Manual</a></li>
       <li class="breadcrumb-item active">Visualize a Spectrum</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/guide/visualize_a_spectrum.rst.txt" rel="nofollow"> View page source</a>
@@ -91,9 +90,9 @@
            <div itemprop="articleBody">
              
   <section id="visualize-a-spectrum">
-<h1>Visualize a Spectrum<a class="headerlink" href="#visualize-a-spectrum" title="Link to this heading"></a></h1>
-<p>GAMUT is not equiped with GUI in the current version, and its visualization capacity is enabled using matplotlib. There are three plot methods with Spectrum object, named plot(),
-plot_region(), and plot_peaks(). They can plot the specturm itself, the ROIs, and the fitted
+<span id="guide-visualize-a-spectrum"></span><h1>Visualize a Spectrum<a class="headerlink" href="#visualize-a-spectrum" title="Link to this heading"></a></h1>
+<p>GAMUT is not equiped with GUI in the current version, and its visualization capacity is enabled using <strong>matplotlib</strong>. There are three plot methods with <a class="reference internal" href="../apidoc/gamut.spectrum.html#module-gamut.spectrum.Spectrum" title="gamut.spectrum.Spectrum"><code class="xref py py-class docutils literal notranslate"><span class="pre">Spectrum</span></code></a> object, named <code class="xref py py-meth docutils literal notranslate"><span class="pre">plot()</span></code>,
+<code class="xref py py-meth docutils literal notranslate"><span class="pre">plot_regions()</span></code>, and <code class="xref py py-meth docutils literal notranslate"><span class="pre">plot_peaks()</span></code>. They can plot the specturm itself, the ROIs, and the fitted
 peaks respectively.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># plot all information of a gamma spectrum</span>
 <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">()</span>
@@ -119,7 +118,7 @@ explore new workflows.</p>
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2024, Tsinghua University, Institute of Nuclear and New Energy Technology.</p>
+    <p>&#169; Copyright 2024, Tsinghua University, Institute of Nuclear and New Energy Technology, THU-RSAG.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a

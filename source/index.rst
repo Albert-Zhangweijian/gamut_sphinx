@@ -23,8 +23,6 @@ secondary development on GAMUT are welcomed!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
-
 
    installation
    dependencies
@@ -32,8 +30,8 @@ secondary development on GAMUT are welcomed!
    classes_and_algorithms
    guide/index
    theory/index
-   apidocs/modules
-   apidoc/modules
+   apidoc/index
+   license
 
 
 Indices and tables

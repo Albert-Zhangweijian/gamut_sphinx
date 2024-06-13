@@ -1,3 +1,5 @@
+.. _guide_initialize_an_operator:
+
 Initialize an Operator
 ======================
 

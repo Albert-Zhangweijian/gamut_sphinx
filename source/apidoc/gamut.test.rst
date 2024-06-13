@@ -1,22 +1,13 @@
 gamut.test package
 ==================
 
-Subpackages
------------
-
-.. toctree::
-   :maxdepth: 4
-
-   gamut.test.minuspak
-   gamut.test.timespak
-
 Submodules
 ----------
 
-gamut.test.summod module
-------------------------
+gamut.test.file module
+----------------------
 
-.. automodule:: gamut.test.summod
+.. automodule:: gamut.test.file
    :members:
    :undoc-members:
    :show-inheritance:

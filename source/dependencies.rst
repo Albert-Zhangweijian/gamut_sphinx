@@ -1,7 +1,7 @@
-Denpendencies
+Dependencies
 ==================
 
-GAMUT relies on following Python packages
+GAMUT relies on following Python packages. If installed with `pip` or `conda`, they will be installed automatically. However, if you install GAMUT from the source code, you need to install these packages manually, and please make sure their version is compatible with GAMUT.
 
 +----------------+----------------+-------------------------------------------------+
 | Package        | Version        | Functionality                                   |

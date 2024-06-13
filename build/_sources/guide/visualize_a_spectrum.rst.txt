@@ -1,9 +1,13 @@
+.. _guide_visualize_a_spectrum:
+
+.. currentmodule:: gamut.spectrum
+
 Visualize a Spectrum
 ====================
 
 
-GAMUT is not equiped with GUI in the current version, and its visualization capacity is enabled using matplotlib. There are three plot methods with Spectrum object, named plot(),
-plot_region(), and plot_peaks(). They can plot the specturm itself, the ROIs, and the fitted
+GAMUT is not equiped with GUI in the current version, and its visualization capacity is enabled using **matplotlib**. There are three plot methods with :class:`Spectrum` object, named :py:meth:`plot`,
+:py:meth:`plot_regions`, and :py:meth:`plot_peaks`. They can plot the specturm itself, the ROIs, and the fitted
 peaks respectively.
 
 .. code-block:: python

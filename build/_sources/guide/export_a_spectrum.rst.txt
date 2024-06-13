@@ -1,3 +1,5 @@
+.. _guide_export_a_spectrum:
+
 Export a Spectrum
 =================
 

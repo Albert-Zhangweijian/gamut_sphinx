@@ -1,3 +1,7 @@
+
+.. currentmodule:: gamut.operator
+.. currentmodule:: gamut.spectrum
+
 Define a Pipe
 =============
 

@@ -5,10 +5,10 @@ Subpackages
 -----------
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
 
    gamut.classes
-   gamut.operators
+   gamut.operator
    gamut.spectrum
    gamut.test
 

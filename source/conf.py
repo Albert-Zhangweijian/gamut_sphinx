@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.abspath(r'E:\\Gamut_dev'))
 # -- Project information -----------------------------------------------------
 
 project = 'GAMUT'
-copyright = '2024, Tsinghua University, Institute of Nuclear and New Energy Technology'
+copyright = '2024, Tsinghua University, Institute of Nuclear and New Energy Technology, THU-RSAG'
 author = 'albert'
 
 # The full version, including alpha/beta/rc tags
@@ -42,7 +42,8 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
-    'sphinx.ext.mathjax'
+    'sphinx.ext.mathjax',
+    'sphinx.ext.autosummary',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -69,3 +70,9 @@ html_static_path = ['_static']
 
 import logging
 logging.basicConfig(level=logging.DEBUG)
+
+autodoc_member_order = 'bysource'
+autoclass_content = 'both' # class or both or init
+autosummary_generate = True
+
+napoleon_use_ivar = True

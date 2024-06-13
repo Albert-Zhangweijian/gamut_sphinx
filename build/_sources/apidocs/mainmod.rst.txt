@@ -1,7 +1,0 @@
-mainmod module
-==============
-
-.. automodule:: mainmod
-   :members:
-   :undoc-members:
-   :show-inheritance:
